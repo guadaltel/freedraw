@@ -16,7 +16,7 @@
     "files": {
     "ol": {
       "scripts": "freedraw.ol.min.js",
-      "styles": "freedraw.min.css"
+      "styles": "freedraw.ol.min.css"
     }
   },
   "metadata": {
