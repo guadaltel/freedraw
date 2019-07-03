@@ -13,10 +13,10 @@
       "position": 0
     }]
   }],
-  "files": {
+    "files": {
     "ol": {
-      "scripts": [],
-      "styles": []
+      "scripts": "freedraw.ol.min.js",
+      "styles": "freedraw.min.css"
     }
   },
   "metadata": {
