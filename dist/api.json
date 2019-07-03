@@ -1,0 +1,33 @@
+{
+  "url": {
+    "name": "freedraw",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.FreeDraw",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": ["TL", "TR", "BL", "BR"],
+      "position": 0
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": [],
+      "styles": []
+    }
+  },
+  "metadata": {
+    "name": "FreeDraw",
+    "description": "Allows free drawing over map",
+    "text": "A full text about plugin",
+    "version": "1.0.0",
+    "date": "Jun 26, 2019",
+    "author": "",
+    "org": "Instituto de Estadística y Cartografía",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
