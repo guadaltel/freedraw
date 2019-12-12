@@ -4,15 +4,24 @@
     "separator": "*"
   },
   "constructor": "M.plugin.FreeDraw",
-  "parameters": [{
-    "type": "object",
-    "properties": [{
-      "type": "enum",
-      "name": "position",
-      "possibleValues": ["TL", "TR", "BL", "BR"],
-      "position": 0
-    }]
-  }],
+  "parameters": [
+    {
+      "type": "object",
+      "properties": [
+        {
+          "type": "enum",
+          "name": "position",
+          "possibleValues": [
+            "TL",
+            "TR",
+            "BL",
+            "BR"
+          ],
+          "position": 0
+        }
+      ]
+    }
+  ],
   "files": {
     "ol": {
       "scripts": "freedraw.ol.min.js",
@@ -23,8 +32,8 @@
     "name": "FreeDraw",
     "description": "Dibujo en el mapa.",
     "text": "Te permite dibujar diferentes geometrias en el mapa con diferentes colores.",
-    "version": "1.0.0",
-    "date": "Jun 26, 2019",
+    "version": "1.0.1",
+    "date": "Diciembre, 2019",
     "author": "",
     "org": "Instituto de Estadística y Cartografía",
     "tags": "mapea,plugin",
