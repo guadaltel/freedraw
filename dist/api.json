@@ -4,28 +4,24 @@
     "separator": "*"
   },
   "constructor": "M.plugin.FreeDraw",
-  "parameters": [
-    {
-      "type": "object",
-      "properties": [
-        {
-          "type": "enum",
-          "name": "position",
-          "possibleValues": [
-            "TL",
-            "TR",
-            "BL",
-            "BR"
-          ],
-          "position": 0
-        }
-      ]
-    }
-  ],
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "enum",
+      "name": "position",
+      "possibleValues": [
+        "TL",
+        "TR",
+        "BL",
+        "BR"
+      ],
+      "position": 0
+    }]
+  }],
   "files": {
     "ol": {
-      "scripts": "freedraw.ol.min.js",
-      "styles": "freedraw.ol.min.css"
+      "scripts": ["freedraw.ol.min.js"],
+      "styles": ["freedraw.ol.min.css"]
     }
   },
   "metadata": {
